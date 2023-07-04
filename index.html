@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="caesarCipher.css">
+
+    <title>CaesarCipher</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ueberschrift">
+            <h1 class="headline">CaesarCipher Encrypter</h1>
+        </div>
+        <div class="box">
+            <div class="row-1">
+                <div class="spalte-1">
+                    <label for="text">Text eingeben: </label>
+                    <input id="text" type="text" placeholder="Example Text">  
+                </div>
+                <div class="spalte-2">
+                    <label for="nummer">Zahl eingeben: </label>
+                    <input id="nummer" type="text" placeholder="7">
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="spalte-1">
+                    <button id="encrypt">Encrypt</button>
+                </div>
+                <div class="spalte-2">
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="ausgabe">
+            <p id="ausgabe"></p>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="caesarCipher.js"></script>
+</body>
+
+</html>
